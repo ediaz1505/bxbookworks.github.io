@@ -128,24 +128,20 @@
 							<h2 class="major">Get in touch</h2>
 							<p></p>
 							<form method="POST" action="https://formspree.io/f/xvgrjvow">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+								<label>
+								  Your Name:
+								  <input type="text" name="name" required>
+								</label>
+								<label>
+								  Your Email:
+								  <input type="email" name="email" required>
+								</label>
+								<label>
+								  Message:
+								  <textarea name="message" required></textarea>
+								</label>
+								<button type="submit">Send</button>
+							  </form>
 							<ul class="contact">
 							
 									<li class="icon solid fa-home">BX Bookworks LLC<br>Bronx, NY • Remote Available</li>
